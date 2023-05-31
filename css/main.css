@@ -1,0 +1,208 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Dancing+Script:wght@700&family=Darumadrop+One&family=Gloria+Hallelujah&family=Great+Vibes&family=Konkhmer+Sleokchher&family=Merriweather&family=Montserrat:ital,wght@1,900&family=Mr+Dafoe&family=Nanum+Gothic&family=Nanum+Myeongjo&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@300&family=Noto+Sans+Nag+Mundari:wght@400;500&family=Pacifico&family=Satisfy&family=Sigmar&family=Work+Sans&family=Yellowtail&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(83, 42, 32);
+    width: 100%;
+    height: 70px;
+    display: flex;
+    border-bottom: 1px solid #333;
+    overflow: hidden;
+    z-index: 10;
+    
+}
+
+.logo{
+    /* background-color: aqua; */
+    width: 20%;
+    font-size: 40 px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    
+}
+.top-menu{
+    width: 60%;
+    /* background-color: yellowgreen; */
+}
+.top-menu > ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 20px;
+}
+.top-menu > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+.top-search{
+    /* background-color: yellow; */
+    margin-left: 50px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    border-radius: 5px;
+    height: 50px;
+    width: 20%;
+    color: white;
+}
+.top-search > input{
+    width: 90%;
+    height: 40px;
+    border: 0px;
+}
+.top-search > i{
+    padding: 10px;
+    color: white;
+}
+.icon{
+    margin-top: 15px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+/* 바디 */
+.body{
+    display: flex;
+}
+/* 왼쪽 */
+.left{
+    /* background-color: rgb(170, 180, 180); */
+    width: 20%;
+    /* height: 100vh; */
+    border-right: 1px solid #333;
+}
+.left-body{
+    /* background-color: antiquewhite; */
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0 auto;
+}
+.left-body > .video{
+    margin-top: 200px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+.left-body > .video > video{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    text-align: center;
+    margin-top: 120px;
+    font-size: 16px;
+}
+.text h3{
+    margin-bottom: 30px;
+}
+/* 메인 */
+.main{
+    width: 80%;
+    /* height: 100vh; */
+    /* background-color: antiquewhite; */
+    /* float: right; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-top{
+    display: flex;
+    /* background-color: rgb(23, 54, 44); */
+    width: 90%;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -30px;
+}
+.main-top > .text2{
+    /* background-color: yellow; */
+    width: 50%;
+    padding: 50px;
+    z-index: 10;
+}
+.text2 > h1{
+    font-size: 100px;
+    margin-top: 100px;
+    color: #5a3131;
+    
+}
+.text2 > p{
+    /* background-color: aqua; */
+    margin-top: 90px;
+    font-size: 20px;
+
+}
+.main-top >img{
+    width: 550px;
+}
+/* 매거진 */
+.magazine{
+    /* background-color: rgba(100, 32, 32, 0.384); */
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+}
+.magazine > p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800px;
+    margin-bottom: 50px;
+}
+.magazine  .magazine-img >.img{
+    width: 30%;
+    float: left;
+}
+.magazine-img {
+    /* background-color: darkcyan; */
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.magazine-img > .img{
+    width: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border-right:1px solid #444 ; */
+}
+.magazine img{
+    width: 100%;
+}
+.magazine-img > .img > h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.magazine-img > .img > p{
+    margin-bottom: 30px;
+}
+footer{
+    width: 80%;
+    height: 100px;
+    background-color: rgb(52, 53, 53);
+    float: right;
+    border-left: 1px solid #333;
+    color: white;
+    text-align: center;
+}
